@@ -7,6 +7,7 @@ from PIL import Image
 import warnings
 import os
 import io
+import requests
 from stability_sdk import client
 import stability_sdk.interfaces.gooseai.generation.generation_pb2 as generation
 
